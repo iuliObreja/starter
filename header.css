@@ -1,33 +1,46 @@
 .header-topbar {
   display: flex;
-  background-color: antiquewhite;
   height: 56px;
   justify-content: center;
-  justify-content: space-between;
 }
 
-.left-section {
-  background-color: lightpink;
-  width: 200px;
-}
-
-.middle-section {
+.header-topbar .container {
   display: flex;
-  background-color: blueviolet;
-  flex: 1;
+  width: 1520px;
+  padding: 0px 10px;
 }
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}
+.emag-logo-wrapper {
+  width: 155px;
+  height: 36px;
+
+  margin: 0px 0px 0px -10px;
+  padding: 0px 10px;
+}
+
+.navbar-searchbox {
+  height: 36px;
+  width: 926px;
+  padding: 0px 10px;
+}
+
+/**De adaugat cod aici**/
 
 .right-section {
   background-color: lightblue;
   width: 200px;
 }
 
-img[src$="png"] {
-  width: 40px;
-}
-
+                       /** Bottom-header **/
 .header-nav-bar {
   width: 100%;
   height: 40px;
   background-color: rgba(187, 5, 223, 0.603);
 }
+
+
