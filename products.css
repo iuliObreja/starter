@@ -1,17 +1,10 @@
 
-
-
-
-
-
-
-
-
 .products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   height: 492px;
   width: 292px;
+  margin-top: 15px;
 }
 .laptop-1 .pre-laptop {
   background-color: white;

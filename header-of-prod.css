@@ -8,7 +8,7 @@
   margin: 0px 0px 10px;
   padding: 0px 15px;
 
-  border: 1px solid rgba(204, 204, 204, 0.5);
+  border: none;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
 }
@@ -21,7 +21,7 @@
   height: 225.141px;
 }
 
-/** break **/
+/** break - Top part **/
 
 .header-title-products {
   display: flex;
@@ -46,7 +46,7 @@
   margin: 0px 0px 0px 5px;
 }
 
-/** break **/
+/** break - Middle part **/
 
 .pick-product {
   height: 20px;
@@ -69,14 +69,19 @@
   border-bottom: 1px solid rgba(204, 204, 204, 0.7);
 }
 
+.products-header .middle-wrapper {
+  margin: -14px 0px 14px;
+}
+
 .btn {
   padding: 6px 30px;
   margin: 5px 10px 0px 0px;
+  height: 34px;
   
   background-color: #fff;
   border-radius: 17px;
-  border: 1px solid grey;
-  
+  border: 1px solid rgba(204, 204, 204, 0.7);
+
   font-size: 14px;
   font-weight: 400;
   color: rgb(34, 34, 34);
@@ -88,18 +93,101 @@
 
 button.two-in-1 {
   background-color: rgb(34, 34, 34);
+  border-color: rgb(34, 34, 34);
   color: #fff;
 }
 
+/** break - Bottom part **/
+
 .filter-products {
+  display: flex;
+  justify-content: space-between;
+  
   height: 52px;
   width: 1166px;
   padding: 10px 0px;
+
+  font-size: 12px;
 }
 
 .filter-left {
   display: flex;
 }
 
-/** break **/
+.filter-products button.popular,
+.filter-products button.page-grid {
+  padding: 5px 30px 5px 10px;
+  height: 32px;
+  
+  background-color: white;
+  border: 1px solid rgba(204, 204, 204, 0.7);
+  color:#666;
+  border-radius: 3px;
+  
+  font-size: 12px;
+}
 
+.filter-products .ordinate,
+.filter-products .prod {
+  margin: 0px 10px 0px 0px;
+  color: #222;
+}
+
+.filter-right {
+  display: flex;
+  align-items: center;
+}
+
+.grid-type {
+  display:flex;
+  align-items: center;
+}
+
+.btn-group {
+  display: flex;
+  height: 32px;
+  margin-left: 3px;
+}
+
+.filter-products button.hamburger,
+.filter-products button.window {
+  padding: 5px 10px;
+  border: 1px solid rgba(204, 204, 204, 0.7);
+
+  cursor: pointer;
+}
+
+.filter-products .hamburger i,
+.filter-products .window i {
+  font-size: 14px;
+}
+
+.filter-products .hamburger i {
+  color: #666;
+}
+
+.filter-products .window i {
+  color: #333;
+}
+
+.filter-products button.hamburger {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  background-color: white;
+
+  transition: background-color 0.15s;
+}
+
+.filter-products button.hamburger:hover {
+  background-color:rgba(192, 191, 191, 0.7);
+}
+
+.filter-products button.window {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  background-color:rgba(192, 191, 191, 0.7);
+
+  margin: 0px 0px 0px -1px;
+}
