@@ -1,0 +1,33 @@
+.header-topbar {
+  display: flex;
+  background-color: antiquewhite;
+  height: 56px;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.left-section {
+  background-color: lightpink;
+  width: 200px;
+}
+
+.middle-section {
+  display: flex;
+  background-color: blueviolet;
+  flex: 1;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}
+
+img[src$="png"] {
+  width: 40px;
+}
+
+.header-nav-bar {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(187, 5, 223, 0.603);
+}
