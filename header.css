@@ -2,6 +2,7 @@
   display: flex;
   height: 56px;
   justify-content: center;
+  align-items: center;
 }
 
 .header-topbar .container {
@@ -104,23 +105,46 @@
 
                                   /** Right Section **/
 .right-section {
-  background-color: lightblue;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 429px;
+  height: 36px;
 }
 /**De adaugat cod aici**/
-.my-account,
-.favourites,
-.my-shoppingcart {
-  padding: 7px 12px 7px 39px;
+.btn-my_account,
+.btn-favourites,
+.btn-my_shopping_cart {
+  display: flex;
+  align-items: center;
+  
+  width: 140px;
+  height: 34px;
   margin-left: 10px;
-  white-space: nowrap;
+
+  cursor: pointer;
 }
 
+.fa-user,
+.fa-heart,
+.fa-cart-shopping {
+  font-size: 22px;
+  color:#0082e6;
+  margin-left: 5px;
+}
 
+span.account-text,
+span.favourites-text,
+span.shoppingcart-text {
+  color: #444;
+  font-size: 14px;
 
+  margin-left: 10px;
+}
 
+.fa-caret-down {
+  color: #444;
+  font-size: 11px;
+  margin-left: 3px;
+}
                           /** -------Bottom-header------- **/
 .header-nav-bar {
   width: 100%;
