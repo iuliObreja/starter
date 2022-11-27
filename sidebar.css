@@ -51,6 +51,98 @@
   text-decoration: none;
 }
 
-.sidebar-container .sidebar-tree_body a.link-10 {
+.sidebar-container .sidebar-tree_body .link-10 {
+  position: relative;
+
   padding: 5px 0px 5px 18px;
 }
+
+.sidebar-container .sidebar-tree_body .link-10 i.fa-plus {
+  position: absolute;
+  left: 0;
+  top: 37%;
+
+  font-size: 12px;
+  color: #005EB0;
+}
+
+
+
+.sidebar-container .erase_all-filter {
+  position: relative;
+  
+  margin: 0px 0px 10px;
+  padding: 12px 30px 12px 15px;
+  
+  background-color: #FFF;
+  font-size: 14px;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.sidebar-container .erase_all-filter a,
+.sidebar-container div.filter-1 a,
+.sidebar-container div.filter-2 a,
+.sidebar-container div.filter-3 a,
+.sidebar-container div.filter-4 a,
+.sidebar-container div.filter-5 a,
+.sidebar-container div.filter-6 a,
+.sidebar-container div.filter-7 a {
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sidebar-container .erase_all-filter a {
+  font-weight: normal;
+}
+
+.sidebar-container .erase_all-filter i.fa-x {
+  position: absolute;
+  top: 37%;
+  right: 5%;
+  
+  color: rgba(255, 0, 0, 0.651);
+  font-size: 14px;
+}
+
+.sidebar-container .filter-1,
+.sidebar-container .filter-2,
+.sidebar-container .filter-3,
+.sidebar-container .filter-4,
+.sidebar-container .filter-5,
+.sidebar-container .filter-6,
+.sidebar-container .filter-7 {
+  position: relative;
+  
+  margin: 0px 0px 10px;
+  padding: 12px 30px 12px 15px;
+  border-radius: 3px;
+
+  background-color: #FFF;
+
+  cursor: pointer;
+}
+
+.sidebar-container div.filter-1 i.fa-angle-down,
+.sidebar-container div.filter-2 i.fa-angle-down,
+.sidebar-container div.filter-3 i.fa-angle-down,
+.sidebar-container div.filter-4 i.fa-angle-down,
+.sidebar-container div.filter-5 i.fa-angle-down,
+.sidebar-container div.filter-6 i.fa-angle-down,
+.sidebar-container div.filter-7 i.fa-angle-down {
+  position: absolute;
+  top: 37%;
+  right: 5%;
+
+  font-size: 15px;
+}
+
+.sidebar-container .filter-2 img {
+  height: 17px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
