@@ -1,16 +1,41 @@
-.main-nav-bar {
-  color: rgba(7, 62, 124, 0.849);
-  background-color: #f2f2f7;
-  height: 48px;
-  width: 100%;
-}
-
 .alpha-main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   height: 100%;
   width: 100%;
   background-color: #f2f2f7;
+}
+
+.alpha-main .main-nav-bar {
+  display: flex;
+  align-items: center;
+  
+  color: grey;
+  background-color: #f2f2f7;
+  
+  font-size: 12px;
+  
+  height: 48px;
+  width: 1520px;
+
+  padding: 0px 10px;
+}
+
+/** put code here **/
+.main-nav-bar .link-1,
+.main-nav-bar .link-2,
+.main-nav-bar .link-3 {
+  margin-right: 5px;
+  
+  color: #005eb8;
+  text-decoration: none;
+}
+
+.main-nav-bar .link-2,
+.main-nav-bar .link-3,
+.main-nav-bar .text {
+  margin-left: 7px;
 }
 
 .main {
