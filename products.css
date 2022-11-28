@@ -124,25 +124,37 @@ p.prp {
   height: 32px;
   width: 297px;
   margin-top: 9px;
-  background-color: rgb(15, 110, 252);
+  background: linear-gradient(to right,#4a60c1 10%,#3985e0);
   border: none;
   border-radius: 3px;
   color: white;
   font-size: 12px;
+
+  cursor: pointer;
 }
+
+/** Problema la hover, se coloreaza si margin
+  .add-to-cart:hover {
+  background: linear-gradient(to right,#3147a8 10%,#206cc7);
+}**/
 
 .addd-to-cart-button {
   position: absolute;
   left: -30;
+  
   height: 32px;
   width: 37px;
+  
   border-radius: 3px;
   margin-top: 9px;
   border-top-right-radius: 0% 0%;
   border-bottom-right-radius: 37% 100%;
   border: none;
   z-index: 2;
+  
   background-color: rgba(255, 0, 0, 0.884);
+
+  cursor: pointer;
 }
 
 
