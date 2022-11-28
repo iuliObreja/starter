@@ -133,10 +133,10 @@ p.prp {
   cursor: pointer;
 }
 
-/** Problema la hover, se coloreaza si margin
-  .add-to-cart:hover {
+
+.add-to-cart-button:hover {
   background: linear-gradient(to right,#3147a8 10%,#206cc7);
-}**/
+}
 
 .addd-to-cart-button {
   position: absolute;
