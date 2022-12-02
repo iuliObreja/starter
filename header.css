@@ -73,6 +73,7 @@
   font-size: 14px;
   
   border: 1px solid transparent;
+  outline: none;
 }
 
 .header-topbar button.search-button {

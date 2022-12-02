@@ -131,6 +131,7 @@ p.prp {
   font-size: 12px;
 
   cursor: pointer;
+  transition: background 0.15s;  /**bug?**/
 }
 
 

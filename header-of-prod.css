@@ -21,7 +21,7 @@
   height: 225.141px;
 }
 
-/** break - Top part **/
+/** Top part **/
 
 .header-title-products {
   display: flex;
@@ -46,7 +46,7 @@
   margin: 0px 0px 0px 5px;
 }
 
-/** break - Middle part **/
+/** Middle part **/
 
 .pick-product {
   height: 20px;
@@ -97,7 +97,7 @@ button.two-in-1 {
   color: #fff;
 }
 
-/** break - Bottom part **/
+/** Bottom part **/
 
 .filter-products {
   display: flex;
