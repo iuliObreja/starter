@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'open_sans';
+    src: url('OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('OpenSans-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: 700;
+}
