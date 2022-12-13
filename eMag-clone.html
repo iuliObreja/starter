@@ -27,7 +27,6 @@
                 <form action="/search" method="get" class="search-bar">
                   <input type="text" 
                   placeholder="Incepe o noua cautare" 
-                  name="asd"
                   class="input">
                 </form>
                 <button type="submit" class="search-button">
@@ -198,10 +197,14 @@
                   <div class="filter-products">
                     <div class="filter-left">
                       <div class="ordinate">Ordoneaza dupa: 
-                        <button class="popular">Cele mai populare</button>
+                        <button class="popular">Cele mai populare
+                          <i class="fa-solid fa-angle-down"></i>
+                        </button>
                       </div>
                       <div class="prod">Produse: 
-                        <button class="page-grid">60 pe pagina</button>
+                        <button class="page-grid">60 pe pagina
+                          <i class="fa-solid fa-angle-down"></i>
+                        </button>
                       </div>
                     </div>
                     <div class="filter-right">
@@ -221,19 +224,16 @@
                 </div> 
               </div>
             
-            
-           
-            <div class="products">
-              
+           <!-- <div class="products">
               <div class="laptop laptop-1">
                   <div class="product-image">
                     <img class="laptop-image" src="./imgs/1st-img.webp">
                   </div>
                   <div class="product-describe">
-                    <p class="description">Laptop ASUS ZenBook 14 Flip
+                    <div class="description">Laptop ASUS ZenBook 14 Flip
                       UP5401 OLED cu procesor Intel&reg;  Core&trade; 
-                     i5-12500H pana...</p>
-                    </p>
+                      i5-12500H pana...
+                    </div>
                     <div class="white-space"></div>
                     <div class="delivery-info">
                       <p>Livrare: <span class="maine">maine</span></p>
@@ -242,12 +242,16 @@
                   <div class="price_and_cart">
                     <div class="prices">
                       <div class="wrap_prp">
-                        <p class="prp">PRP: 6.949&nbsp;&nbsp;&nbsp;
-                           Lei</p>
-                        <div class="sup">99</div>
+                        <div class="prp">PRP: 6.949
+                          <span class="sup">99</span>
+                          <span class="currency">Lei</span>
+                        </div>
                       </div>
                       <div class="wrap_price">
-                        <p class="price">5.999 <span class="sup">99</span>&nbsp;&nbsp;&nbsp;Lei</p>
+                        <div class="price">5.999
+                          <span class="sup">99</span>
+                          <span class="currency">Lei</span>
+                        </div>
                       </div>
                     </div>
                     <div class="add-to-cart">
@@ -262,9 +266,9 @@
                     <img class="laptop-image" src="./imgs/2nd-img.webp">
                   </div>
                   <div class="product-describe">
-                    <p class="description">Laptop HP 15-dw3034nq cu procesor Intel&reg; Core&trade;
-                      i5-1135G7 pana la 4.20 GHz, 15.6&#34;, Full HD, 8GB, 512GB SSD,...
-                    </p>
+                    <div class="description">Laptop HP 15-dw3034nq cu procesor Intel&reg; Core&trade;
+                                    i5-1135G7 pana la 4.20 GHz, 15.6&#34;, Full HD, 8GB, 512GB SSD,...
+                    </div>
                     <div class="rating">
                       <div class="stars">
                         <div class="stars-font">
@@ -354,6 +358,188 @@
                       </div>
                     </div>
                 </div>
+           </div> -->
+            <div class="card_container">
+              <div class="product_card-1">
+                <div class="pos_absolute-top_div">
+                  <div class="genius-ribon">
+                    genius
+                  </div>
+                  <button type="button" class="heart-abs">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button type="button" class="square-abs">
+                    <i class="fa-regular fa-square"></i>
+                  </button>
+                </div>
+                <div class="padding">
+                  <a href="#" class="img-link">
+                    <img src="./imgs/laptop-1.jpg">
+                  </a>
+                  <div class="text-info">
+                    Laptop ultraportabil ASUS ZenBook 14 OLED 
+                    Flip UP5401 cu procesor Intel&reg; Core&trade; i5-12500H 
+                    pana la 4.50 GHz, 14",...
+                  </div>
+                  <div class="white-space"></div>
+                  <div class="stock-info">
+                    <div class="stock-text">In stoc</div>
+                    <div class="bonus">Cadou M365 Personal</div>
+                  </div>
+                  <div class="preturi">
+                    <div class="prp">PRP: 3.980 
+                      <span class="top-decimals">99</span> 
+                      <span class="currency">Lei</span>
+                    </div>
+                    <div class="pret">2.599 
+                    <span class="top-decimals">99</span> 
+                    <span class="currency">Lei</span>
+                    </div> 
+                  </div>
+                  <div class="buttons">
+                    <button class="red-cart_button">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="add-to-cart_button">Adauga in Cos</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product_card-2">
+                <div class="pos_absolute-top_div">
+                  <div class="genius-ribon">
+                    genius
+                  </div>
+                  <button type="button" class="heart-abs">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button type="button" class="square-abs">
+                    <i class="fa-regular fa-square"></i>
+                  </button>
+                </div>
+                <div class="padding">
+                  <a href="#" class="img-link">
+                    <img src="./imgs/laptop-2.webp">
+                  </a>
+                  <div class="white-space"></div>
+                  <div class="text-info">
+                    Laptop 2 in 1 Microsoft Surface Pro X cu procesor Microsoft 
+                    SQ1, Adreno 685, 13" Touch, SSD 128GB, 8GB RAM,...
+                  </div>
+                  <div class="stock-info">
+                    <div class="stock-text">ultimul produs in stoc</div>
+                  </div>
+                  <div class="preturi">
+                    <div class="pret">5.499 
+                    <span class="top-decimals">00</span> 
+                    <span class="currency">Lei</span>
+                    </div> 
+                  </div>
+                  <div class="buttons">
+                    <button class="red-cart_button">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="add-to-cart_button">Adauga in Cos</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product_card-3">
+                <div class="pos_absolute-top_div">
+                  <div class="genius-ribon">
+                    genius
+                  </div>
+                  <button type="button" class="heart-abs">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button type="button" class="square-abs">
+                    <i class="fa-regular fa-square"></i>
+                  </button>
+                </div>
+                <div class="padding">
+                  <a href="#" class="img-link">
+                    <img src="./imgs/laptop-3.webp">
+                  </a>
+                  <div class="text-info">
+                    Laptop ultraportabil HP Pavilion x360 14-ek0008nn cu 
+                    procesor Intel&reg; Core&trade; i5-1235U pana la 4.40 GHz, 14", Full HD,...
+                  </div>
+                  <div class="white-space"></div>
+                  <div class="stock-info">
+                    <div class="stock-text">In stoc</div>
+                    <div class="bonus delivery-info">Livrare: <span class="delivery-day">maine</span></div>
+                  </div>
+                  <div class="preturi">
+                    <div class="prp">5.999 
+                      <span class="top-decimals">99</span> 
+                      <span class="currency">Lei</span>
+                    </div>
+                    <div class="pret">4.899
+                    <span class="top-decimals">99</span> 
+                    <span class="currency">Lei</span>
+                    </div> 
+                  </div>
+                  <div class="buttons">
+                    <button class="red-cart_button">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="add-to-cart_button">Adauga in Cos</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product_card-4">
+                <div class="pos_absolute-top_div">
+                  <div class="genius-ribon">
+                    genius
+                  </div>
+                  <button type="button" class="heart-abs">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                  <button type="button" class="square-abs">
+                    <i class="fa-regular fa-square"></i>
+                  </button>
+                </div>
+                <div class="padding">
+                  <a href="#" class="img-link">
+                    <img src="./imgs/laptop-4.webp">
+                  </a>
+                  <div class="text-info">
+                    Laptop 2 in 1 ASUS VivoBook 13 Slate OLED T3300KA cu procesor 
+                    Intel&reg; Pentium&reg; Silver N6000, 13.3", Full HD,...
+                  </div>
+                  <div class="white-space star-rtg">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="nr-rating-wrapper">
+                      <span class="nr-rating">4.75</span>
+                      <span class="nr-rating_sub">(4)</span>
+                    </div>
+                  </div>
+                  <div class="stock-info">
+                    <div class="stock-text">In stoc</div>
+                    <div class="bonus delivery-info">10&percnt; CARD CADOU</div>
+                  </div>
+                  <div class="preturi">
+                    <div class="prp">PRP: 4.071
+                      <span class="top-decimals">99</span> 
+                      <span class="currency">Lei</span>
+                    </div>
+                    <div class="pret">2.699
+                    <span class="top-decimals">99</span> 
+                    <span class="currency">Lei</span>
+                    </div> 
+                  </div>
+                  <div class="buttons">
+                    <button class="red-cart_button">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button class="add-to-cart_button">Adauga in Cos</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -51,4 +51,6 @@
   display: grid;
   grid-template-rows: 227.14px 1fr;
   width: 1198px;
+
+  gap: 10px;
 }

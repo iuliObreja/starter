@@ -25,6 +25,21 @@
   padding: 15px 0px;
 }
 
+.sidebar-container .sidebar-tree_head .head-link .nr {
+  font-size: 12px;
+}
+
+.sidebar-container .sidebar-tree .title-link .nr {
+  font-weight: 700;
+}
+
+.sidebar-container .sidebar-tree span.nr {
+  font-size: 10px;
+  font-weight: 400;
+
+  margin-left: 5px;
+}
+
 .sidebar-container .sidebar-tree_head a {
   color: #005EB0;
   font-size: 14px;
@@ -145,6 +160,7 @@
 }
 
 .sidebar-container .filter-2 img {
+  display: inline-block;
   height: 17px;
   margin-left: 5px;
   vertical-align: middle;

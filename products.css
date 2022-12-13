@@ -1,10 +1,10 @@
-
+/* 
 .products {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 292px);
   height: 492px;
-  width: 292px;
   margin-top: 15px;
+  gap: 10px;
 }
 .laptop-1 .pre-laptop {
   background-color: white;
@@ -13,11 +13,12 @@
   padding: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #ffffff;
 }
 
 .product-image {
-  width: 290px;
+  width: 285px;
   height: 285px;
   margin: 0px 0px 10px;
   padding: 5px 5px 0px;
@@ -35,7 +36,7 @@
   padding: 0px 10px;
 }
 
-p.description {
+div.description {
   width: 270px;
   height: 57px;
   font-weight: 600;
@@ -72,25 +73,31 @@ p.description {
 
 .wrap_prp {
   height: 19px;
-  position: relative;
 }
 
-p.prp {
+div.prp {
+  position: relative;
   font-size: 12px;
   color: grey;
   height: 17px;
 }
 
 .laptop-1 .sup {
+  position: absolute;
+  top: 2px;
+  left: 59px;
+  
   width: 9.17;
   height: 10px;
-  margin: 0px 0px 0px 0.78px;
+  
   font-size: 7.8px;
-  position: absolute;
   color: grey;
-  top: 2px;
-  bottom: 0px;
-  left: 60px;
+  
+  margin: 0px 0px 0px 0.78px;
+}
+
+.price_and_cart .currency {
+  margin-left: 10px;
 }
 
 .wrap_price {
@@ -98,7 +105,7 @@ p.prp {
   position: relative;
 }
 
-.laptop-1 .price {
+.laptop .price {
   font-size: 16px;
   color: red;
   font-weight: bold;
@@ -106,10 +113,10 @@ p.prp {
 
 .price .sup {
   position: absolute;
-  font-weight: bold;
-  font-size: 10.4px;
   left: 41px;
-  top: 2px;
+  
+  font-size: 10.4px;
+  font-weight: bold;
   color: red;
 }
 
@@ -117,7 +124,6 @@ p.prp {
   margin: 2px auto 13px auto;
   display: flex;
   position: relative;
-  
 }
 
 .add-to-cart-button {
@@ -131,7 +137,7 @@ p.prp {
   font-size: 12px;
 
   cursor: pointer;
-  transition: background 0.15s;  /**bug?**/
+  transition: background 0.15s;  
 }
 
 
@@ -553,4 +559,314 @@ p.prp {
   border: none;
   z-index: 2;
   background-color: rgba(255, 0, 0, 0.884);
+} */
+
+.card_container img {
+  width: 100%;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  width: 100%; 
+}
+
+.card_container >* {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+ 
+  width: 302px;
+  height: 526px;
+  
+  background-color: white;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.card_container >*:hover {
+  box-shadow: 0 0 22px 1px rgba(153, 153, 153, 0.38);
+}
+
+.pos_absolute-top_div {
+  position: absolute;
+  top: 15px;
+
+  height: 60px;
+  width: 100%;
+}
+
+.card_container .genius-ribon {
+  position: absolute;
+  left: 1px;
+
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+
+  padding: 4px 15px;
+
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  background-image: linear-gradient(69deg,#090171 0%,#ff005a 100%);
+  pointer-events: none;
+}
+
+.card_container button.heart-abs {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+
+  display: flex;
+  
+  height: 32px;
+  width: 32px;
+  padding: 8px;
+
+  background-color: #fff;
+  color: #222;
+  border-radius: 15px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.card_container button.heart-abs i {
+  align-items: center;
+  font-size: 16px;
+
+  transition: color 0.15s;
+}
+
+.card_container button.heart-abs i:hover {
+  color:#005eb8;
+}
+
+
+.card_container button.square-abs {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+
+  display: flex;
+  
+  height: 32px;
+  width: 32px;
+  padding: 8px;
+
+  background-color: #fff;
+  color: #222;
+  border-radius: 15px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.card_container button.square-abs i {
+  align-items: center;
+  font-size: 16px;
+}
+
+.padding {
+  height: 100%;
+  padding: 5px;
+}
+
+.img-link {
+  margin: 0px 0px 10px;
+  display: flex;
+}
+
+.text-info {
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px 5px;
+  margin: 0px 0px 5px;
+}
+
+.white-space {
+  height: 20px;
+  margin: 0px 0px 5px;
+}
+
+.stock-info {
+  font-size: 12px;
+  font-weight: 500;
+  height: 43px;
+  padding: 5px;
+  margin: 0px 0px 5px;
+  line-height: 2.07;
+}
+
+.stock-text {
+  color: #888;
+}
+
+.bonus {
+  color: #EF2809;
+}
+
+.preturi {
+  height: 38px;
+  line-height: 1.3;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.prp {
+  position: relative;
+  font-size: 12px;
+  color: #888;
+  font-weight: 400;
+}
+
+.prp .top-decimals {
+  position: absolute;
+  top: 2px;
+  left: 60px;
+  font-size: 7.8px;
+}
+
+.prp .currency {
+  margin-left: 10px;
+}
+
+.pret {
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  color: #EF2809;
+}
+
+.pret .top-decimals {
+  position: absolute;
+  top: 2px;
+  left: 42px;
+  font-size: 10.4px;
+} 
+
+.pret .currency {
+  margin-left: 10px;
+}
+
+.buttons {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+
+  padding: 0px 5px 5px;
+  margin: 7px 0px 0px 0px;
+}
+
+.add-to-cart_button {
+  height: 32px;
+  width: 297px;
+  background: linear-gradient(to right,#4a60c1 10%,#3985e0);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: background 2.15s;  /**bug?**/
+}
+
+
+.add-to-cart_button:hover {
+  background: linear-gradient(to right,#3147a8 10%,#206cc7);
+}
+
+.red-cart_button {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 32px;
+  width: 37px;
+  
+  border-radius: 3px;
+  border-top-right-radius: 0% 0%;
+  border-bottom-right-radius: 37% 100%;
+  border: none;
+  z-index: 2;
+  
+  background: #FE2D34;
+  background-image: linear-gradient(to right,#cf3f50,#fe2d34);
+
+  cursor: pointer;
+}
+
+.buttons i {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  
+  font-size: 16px;
+  color: #fff;
+}
+
+                                      /* CARD 2 */
+
+.product_card-2 .preturi .pret {
+  margin-top: 16px;
+}
+
+.product_card-2 .stock-info .stock-text {
+  color: #FF5500;
+  margin-top: 25px; 
+}
+
+                                      /* CARD 3 */
+
+.product_card-3 .delivery-info {
+  color: #222;
+}
+
+.product_card-3 .delivery-info span.delivery-day {
+  color: green;
+}
+
+.product_card-3 .prp .top-decimals {
+  position: absolute;
+  top: 2px;
+  left: 32px;
+  font-size: 7.8px;
+}
+
+.product_card-3 .prp {
+  text-decoration: line-through;
+}
+
+                                      /* CARD 4 */
+
+.product_card-4 .star-rtg {
+  display: flex;
+}
+
+.product_card-4 .stars,
+.product_card-4 .nr-rating-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.product_card-4 .star-rtg .stars i {
+  font-size: 14px;
+  color: #f9bf3b;
+}
+
+.product_card-4 .nr-rating-wrapper {
+  font-size: 12px;
+  font-weight: 500;
+  color: #222;
+  
+  padding: 0px 0px 0px 5px;
+}
+
+.product_card-4 .nr-rating-wrapper span.nr-rating_sub {
+  color: #888;
+  margin-left: 3px;
 }
