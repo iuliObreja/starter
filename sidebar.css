@@ -1,7 +1,7 @@
 .sidebar-container {
   display: flex;
   flex-direction: column;
-  width: 302px;
+  width: 315px;
   padding: 0px 15px 0px 0px;
 }
 
@@ -66,13 +66,13 @@
   text-decoration: none;
 }
 
-.sidebar-container .sidebar-tree_body .link-10 {
+.sidebar-container .sidebar-tree_body .end-link {
   position: relative;
 
   padding: 5px 0px 5px 18px;
 }
 
-.sidebar-container .sidebar-tree_body .link-10 i.fa-plus {
+.sidebar-container .sidebar-tree_body .end-link i.fa-plus {
   position: absolute;
   left: 0;
   top: 37%;
@@ -101,13 +101,8 @@
 }
 
 .sidebar-container .erase_all-filter a,
-.sidebar-container div.filter-1 a,
-.sidebar-container div.filter-2 a,
-.sidebar-container div.filter-3 a,
-.sidebar-container div.filter-4 a,
-.sidebar-container div.filter-5 a,
-.sidebar-container div.filter-6 a,
-.sidebar-container div.filter-7 a {
+.sidebar-container div.filter a,
+.sidebar-container div.filter-genius-logo a {
   color: #222;
   text-decoration: none;
   font-size: 14px;
@@ -127,13 +122,8 @@
   font-size: 14px;
 }
 
-.sidebar-container .filter-1,
-.sidebar-container .filter-2,
-.sidebar-container .filter-3,
-.sidebar-container .filter-4,
-.sidebar-container .filter-5,
-.sidebar-container .filter-6,
-.sidebar-container .filter-7 {
+.sidebar-container .filter,
+.sidebar-container .filter-genius-logo {
   position: relative;
   
   margin: 0px 0px 10px;
@@ -145,13 +135,8 @@
   cursor: pointer;
 }
 
-.sidebar-container div.filter-1 i.fa-angle-down,
-.sidebar-container div.filter-2 i.fa-angle-down,
-.sidebar-container div.filter-3 i.fa-angle-down,
-.sidebar-container div.filter-4 i.fa-angle-down,
-.sidebar-container div.filter-5 i.fa-angle-down,
-.sidebar-container div.filter-6 i.fa-angle-down,
-.sidebar-container div.filter-7 i.fa-angle-down {
+.sidebar-container div.filter i.fa-angle-down,
+.sidebar-container div.filter-genius-logo i.fa-angle-down {
   position: absolute;
   top: 37%;
   right: 5%;
@@ -159,7 +144,7 @@
   font-size: 15px;
 }
 
-.sidebar-container .filter-2 img {
+.sidebar-container .filter-genius-logo img {
   display: inline-block;
   height: 17px;
   margin-left: 5px;

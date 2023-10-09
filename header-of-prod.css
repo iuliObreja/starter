@@ -1,11 +1,7 @@
-
 .products-header {
-  width: 1198px;
-  height: 227.14px;
-  
   text-size-adjust: 100%;
 
-  padding: 0px 15px;
+  padding: 0px 35px;
 
   border: none;
   border-radius: 3px;
@@ -72,7 +68,7 @@
   margin: -14px 0px 14px;
 }
 
-.btn {
+.header-nav-buttons .div-buttons >* {
   padding: 6px 30px;
   margin: 5px 10px 0px 0px;
   height: 34px;

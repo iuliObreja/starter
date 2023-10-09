@@ -10,20 +10,19 @@
 .header-topbar .container {
   display: flex;
   width: 1520px;
+  height: 36px;
   padding: 0px 10px;
 }
-.left-section,
-.middle-section,
-.right-section {
+.header-topbar .container >* {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
                               /* Left Section */
 .emag-logo-wrapper {
   width: 155px;
-  height: 36px;
-
+ 
   margin: 0px 0px 0px -10px;
   padding: 0px 10px;
 
@@ -32,9 +31,8 @@
 
                               /* Middle Section */
 .navbar-searchbox {
-  height: 36px;
-  width: 100%;
   padding: 0px 10px;
+  height: 100%;
 }
 
 .searchbox-wrapper {
@@ -43,7 +41,7 @@
   align-items: center;
   
   width: 100%;
-  height: 36px;
+  height: 100%;
 }
 
 .header-topbar form.search-bar {
@@ -53,7 +51,7 @@
   align-items: center;
 
   width: 864px;
-  height: 36px;
+  height: 100%;
   padding: 7px 12px;
 
   border: 1px solid #0082e6;
@@ -80,7 +78,7 @@
 
 .header-topbar button.search-button {
   width: 42px;
-  height: 36px;
+  height: 100%;
 
   padding: 6px 12px;
 
@@ -107,19 +105,18 @@
 }
 
                                   /* Right Section */
-.right-section {
+  .header-topbar .container .right-section {
   align-items: center;
-  width: 429px;
-  height: 36px;
+  justify-content: center;
+  width: 100%;
 }
-/**De adaugat cod aici**/
-.btn-my_account,
-.btn-favourites,
-.btn-my_shopping_cart {
+
+.header-topbar .container .right-section >* {
   display: flex;
   align-items: center;
+  justify-content: center;
   
-  width: 140px;
+  width: 135px;
   height: 34px;
   margin-left: 10px;
 
@@ -164,6 +161,7 @@ span.shoppingcart-text {
   height: 40px;
   
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -228,8 +226,7 @@ a[title] {
 
 .header-nav-bar_wrapper .nav-list-right {
   margin: 5px 0px 5px 4px;
-  padding: 4px 9px;
-
+  padding: 5px;
   border: 1px solid transparent;
 }
 
@@ -242,4 +239,3 @@ a[title] {
   font-size: 18px;
   margin-right: 8px;
 }
-

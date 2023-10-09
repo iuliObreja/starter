@@ -10,6 +10,7 @@
 .alpha-main .main-nav-bar {
   display: flex;
   align-items: center;
+  gap: 5px;
   
   color: grey;
   background-color: #f2f2f7;
@@ -22,21 +23,15 @@
   padding: 0px 10px;
 }
 
-/** put code here **/
-.main-nav-bar .link-1,
-.main-nav-bar .link-2,
-.main-nav-bar .link-3 {
-  margin-right: 5px;
-  
+.main-nav-bar .link {
   color: #005eb8;
   text-decoration: none;
 }
 
-.main-nav-bar .link-2,
-.main-nav-bar .link-3,
-.main-nav-bar .text {
-  margin-left: 7px;
+.main-nav-bar .link:focus {
+  color: gray;
 }
+
 
 .main {
   display: flex;
@@ -49,8 +44,8 @@
 
 .header-and-products {
   display: grid;
-  grid-template-rows: 227.14px 1fr;
-  width: 1198px;
+  grid-template-rows: 227.14px;
+  width: 100%;
 
   gap: 10px;
 }
